@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/my-tutorial/',
   lang: 'zh-CN',
   title: "Zach的VitePress文档",
   description: "A VitePress Site",
