@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Zach的VitePress文档"
-  text: "一个VitePress站点"
+  name: "VitePress"
+  text: "Zach的VitePress文档从一到无穷大"
   tagline: Yesterday Once More
   actions:
     - theme: brand

@@ -62,8 +62,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-present Zachary'
+      message: '基于 MIT 许可发布',
+      copyright: '版权所有 © 2025-至今 Zachary'
     },  
 
     search: {
