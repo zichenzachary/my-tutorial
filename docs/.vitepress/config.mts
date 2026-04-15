@@ -33,7 +33,7 @@ export default defineConfig({
         text: '文章',
         collapsed: false,
         items: [
-          { text: '文章1', link: '/图片测试/图片测试' },
+          { text: '文章1', link: '/样式预览/样式预览' },
         ]
       }
     ],
