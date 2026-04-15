@@ -262,7 +262,7 @@ $\dfrac{\dfrac{a}{c} - 4x}{b - \dfrac{a}{b}}$
 
 ## 分区显示
 
-需使用 `Code Tab ` 插件
+需使用 `Code Tab` 插件
 
 ```tab
 tab: 标题1

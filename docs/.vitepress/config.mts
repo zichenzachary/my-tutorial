@@ -101,7 +101,7 @@ export default defineConfig({
               closeText: '关闭',
               backToSearchText: '返回搜索',
               closeKeyAriaLabel: 'Esc 键',
-              poweredByText: 'Powered by'
+              poweredByText: '搜索提供者'
             },
             errorScreen: {
               titleText: '无法获取结果',
@@ -144,7 +144,7 @@ export default defineConfig({
         },
 
         askAi: {
-          assistantId: 'YaVSonfX5bS8',
+          assistantId: 'aceed650-ff5b-4dc6-9aba-3bd78ac6672f',
           sidePanel: {
             panel: {
               variant: 'floating',
@@ -190,7 +190,7 @@ export default defineConfig({
                     '我会搜索你的文档，快速帮你找到设置指南、功能细节和故障排除提示。'
                 },
                 logo: {
-                  poweredByText: 'Powered by'
+                  poweredByText: '搜索提供者'
                 }
               }
             },
