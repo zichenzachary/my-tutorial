@@ -1,4 +1,4 @@
-name: docsearch
+name: Docsearch
 
 on:
   push:
