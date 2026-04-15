@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/markdown-examples' } // 只改了这个
+      { text: '文章', link: '/样式预览/样式预览' } // 只改了这个
     ],
 
     sidebar: [
@@ -26,15 +26,14 @@ export default defineConfig({
         items: [
           { text: 'Markdown', link: '/markdown-examples' },
           { text: 'Runtime API', link: '/api-examples' },
-          { text: 'Style Preview', link: '/StylePreview' }
+          { text: '样式预览', link: '/样式预览/样式预览' }
         ]
       },
       {
         text: '文章',
         collapsed: false,
         items: [
-          { text: '文章1', link: '/StylePreview' },
-          { text: '文章2', link: '/图片测试/图片测试' },
+          { text: '文章1', link: '/图片测试/图片测试' },
         ]
       }
     ],
