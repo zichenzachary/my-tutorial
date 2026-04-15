@@ -209,6 +209,9 @@ export default defineConfig({
   },
 
   markdown: {
-    math: true
+    math: true,
+    image: {
+      lazyLoading: true
+    }
   }
 })
