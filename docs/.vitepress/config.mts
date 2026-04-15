@@ -17,7 +17,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文章', link: '/样式预览/样式预览' } // 只改了这个
+      { text: '文章', link: '/简明LaTex教程/简明LaTex教程' } 
     ],
 
     sidebar: [
@@ -25,7 +25,7 @@ export default defineConfig({
         text: '示例',
         collapsed: false,
         items: [
-          { text: '样式预览', link: '/样式预览/样式预览' },
+          { text: '样式预览', link: '/样式预览/样式预览' }
 
         ]
       },
@@ -34,7 +34,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '简明LaTex教程', link: '/简明LaTex教程/简明LaTex教程' },
-          
+          { text: 'Matplotlib', link: '/Matplotlib/Matplotlib' }
         ]
       }
     ],
@@ -44,7 +44,8 @@ export default defineConfig({
     ],
 
     outline: {
-      label: '页面导航'
+      label: '页面导航',
+      level: [2, 3]
     },
 
     docFooter: {
