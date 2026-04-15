@@ -12,7 +12,7 @@ hero:
       link: /样式预览/样式预览
     - theme: alt
       text: 文章
-      link: /样式预览/样式预览
+      link: /简明LaTex教程/简明LaTex教程
 
 features:
   - icon: 📝

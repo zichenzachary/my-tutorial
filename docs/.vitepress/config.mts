@@ -25,16 +25,16 @@ export default defineConfig({
         text: '示例',
         collapsed: false,
         items: [
-          { text: 'Markdown', link: '/markdown-examples' },
-          { text: 'Runtime API', link: '/api-examples' },
-          { text: '样式预览', link: '/样式预览/样式预览' }
+          { text: '样式预览', link: '/样式预览/样式预览' },
+
         ]
       },
       {
         text: '文章',
         collapsed: false,
         items: [
-          { text: '文章1', link: '/样式预览/样式预览' },
+          { text: '简明LaTex教程', link: '/简明LaTex教程/简明LaTex教程' },
+          
         ]
       }
     ],
