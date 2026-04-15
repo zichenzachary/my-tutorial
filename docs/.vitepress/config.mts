@@ -144,7 +144,8 @@ export default defineConfig({
         },
 
         askAi: {
-          assistantId: 'aceed650-ff5b-4dc6-9aba-3bd78ac6672f',
+          assistantId: "aceed650-ff5b-4dc6-9aba-3bd78ac6672f",
+          agentStudio: true,
           sidePanel: {
             panel: {
               variant: 'floating',
