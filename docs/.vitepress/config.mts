@@ -69,9 +69,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'X841ENJ1TO',
-        apiKey: '23d35514c2dc2bd8a2be545214aae5c9',
-        indexName: 'zephyelio',
+        appId: 'KOAQJCPAQO',
+        apiKey: '2f50f79fc3277ed41bd6b611bb39d8ff',
+        indexName: 'doc',
 
         // 搜索弹窗 + Ask AI 侧边栏
         mode: 'hybrid',
