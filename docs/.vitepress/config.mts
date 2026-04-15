@@ -8,8 +8,9 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/my-tutorial/logo.svg' }]
   ],
+
   
   themeConfig: {
     logo: { src: '/logo.svg', width: 24, height: 24 },
