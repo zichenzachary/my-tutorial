@@ -1,3 +1,4 @@
+/* 主页标题颜色渐变 */
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
@@ -7,18 +8,27 @@
   );
 }
 
+/* 最后更新时间戳放置于页面右下角 */
 .VPDocFooter .last-updated {
   margin-left: auto;
   text-align: right;
 }
 
+/* 防止没有滚动条页面切换的抖动 */
 html {
   scrollbar-gutter: stable;
 }
 
+/* 增大主页标题间距 */
 .VPHomeHero .text {
   line-height: 1.25;
 }
+
+/* 在“只有一个代码块”的代码组里隐藏蓝线 */
+.vp-code-group .tabs:has(label:only-of-type) input:checked + label::after {
+  background-color: transparent;
+}
+
 
 
 

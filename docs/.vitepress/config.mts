@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/my-tutorial/',
-  lang: 'zh-CN',
+  lang: 'zh-CN', 
   title: "Zach的VitePress文档",
   description: "A VitePress Site",
   lastUpdated: true,
@@ -25,7 +25,8 @@ export default defineConfig({
         text: '示例',
         collapsed: false,
         items: [
-          { text: '样式预览', link: '/样式预览/样式预览' }
+          { text: '样式预览', link: '/样式预览/样式预览' },
+          { text: '建站指南', link: '/建站指南/建站指南' }
 
         ]
       },

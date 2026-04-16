@@ -1,13 +1,17 @@
 name: Docsearch
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows:
+      - Deploy VitePress site to Pages
+    types:
+      - completed
+
   workflow_dispatch:
 
 jobs:
   algolia:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -29,4 +33,3 @@ jobs:
             --env API_KEY="${API_KEY}" \
             --env CONFIG="${CONFIG}" \
             algolia/docsearch-scraper
-
