@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/my-tutorial/',
+  base: '/',
   lang: 'zh-CN', 
   title: "Zach的VitePress文档",
   description: "A VitePress Site",
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/my-tutorial/logo.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
   ],
 
   
