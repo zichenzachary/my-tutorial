@@ -213,7 +213,7 @@ export default defineConfig({
   markdown: {
     math: true,
     image: {
-      lazyLoading: true
+      lazyLoading: false  // true
     }
   }
 })
