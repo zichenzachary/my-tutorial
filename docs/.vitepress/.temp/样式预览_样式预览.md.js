@@ -5,7 +5,7 @@ const _imports_0 = "/my-tutorial/assets/%E6%A0%B7%E5%BC%8F%E9%A2%84%E8%A7%88.Cqi
 const _imports_1 = "/my-tutorial/assets/%E6%A0%B7%E5%BC%8F%E9%A2%84%E8%A7%88-1.8baDFEDt.png";
 const _imports_2 = "/my-tutorial/assets/%E6%A0%B7%E5%BC%8F%E9%A2%84%E8%A7%88-2.CZKp97Sc.png";
 const _imports_3 = "/my-tutorial/assets/%E6%A0%B7%E5%BC%8F%E9%A2%84%E8%A7%88-3.B7U5oRWf.png";
-const __pageData = JSON.parse('{"title":"样式预览","description":"","frontmatter":{},"headers":[],"relativePath":"样式预览/样式预览.md","filePath":"样式预览/样式预览.md","lastUpdated":1776274574000}');
+const __pageData = JSON.parse('{"title":"样式预览","description":"","frontmatter":{},"headers":[],"relativePath":"样式预览/样式预览.md","filePath":"样式预览/样式预览.md","lastUpdated":1776336108000}');
 const _sfc_main = { name: "样式预览/样式预览.md" };
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_Badge = resolveComponent("Badge");
