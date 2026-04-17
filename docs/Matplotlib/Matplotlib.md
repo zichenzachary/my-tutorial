@@ -957,7 +957,6 @@ plt.show()
 4. `plt.tight_layout(w_pad=0.5, h_pad=1.0)` 分别指定左右、上下的边距
 
 ```python
-```python
 # ## subplot只能等分画布，不能设置不同大小
 # ## subplot2grid的`rowspan`,`colspan`可以实现非等分画布
 # subplot2grid(shape, loc, colspan, rowspan)

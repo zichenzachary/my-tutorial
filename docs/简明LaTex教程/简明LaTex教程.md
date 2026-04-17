@@ -32,8 +32,8 @@ LaTeX 发行版：
 ### 3.1 基础书籍
 
 - LaTeX 2e 完全学习手册
-- LaTeX Cookbook Over 90 hand_
-- LaTeX in 24 Hours A Practic_
+- LaTeX Cookbook Over 90 hand
+- LaTeX in 24 Hours A Practic
 - LaTeX 入门
 - Inotes2
 - Ishort-zh-cn
