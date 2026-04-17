@@ -393,7 +393,7 @@ sns.boxenplot(x="color", y="price",
               hue='color', legend=False)
 ```
 
-> [!info]
+> [!NOTE] 信息
 > 箱子中间的线为中位数，上方的点为一些异常点
 
 <div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
@@ -441,7 +441,7 @@ g = sns.catplot(x="day", y="total_bill", kind="violin", inner=None, data=tips)
 sns.swarmplot(x="day", y="total_bill", color="k", size=3, data=tips, ax=g.ax)               
 ```
 
-> [!info]
+> [!NOTE] 信息
 > 隆起的地方越靠右代表平均值越大，白色的线代表中位数
 
 <div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
@@ -792,10 +792,13 @@ sns.residplot(x="x", y="y",data=anscombe.query("dataset == 'I'"),
               scatter_kws={"s": 80})      # 绘制残差图，点大小为80
 ```
 
-> [!hint]
+> [!TIP] 提示
+>
 > 残差（residual） = 真实值 - 拟合值
-> - 理想情况：残差应该随机分布在 0 附近，没有规律
-> - 非理想情况：残差呈现明显规律（曲线、锯齿、波动），说明模型没有捕捉到数据的趋势
+>
+> 理想情况：残差应该随机分布在 0 附近，没有规律
+>
+> 非理想情况：残差呈现明显规律（曲线、锯齿、波动），说明模型没有捕捉到数据的趋势
 
 <p align="center"><img src="./assets/Seaborn-59.png" width="400" alt="Seaborn-59"></p>
 
