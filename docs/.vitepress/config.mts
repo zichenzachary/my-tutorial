@@ -35,7 +35,11 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '简明LaTex教程', link: '/简明LaTex教程/简明LaTex教程' },
-          { text: 'Matplotlib', link: '/Matplotlib/Matplotlib' }
+          { text: 'Jupyter命令', link: '/数据科学/Jupyter命令/Jupyter命令' },
+          { text: 'NumPy', link: '/数据科学/NumPy/NumPy' },
+          { text: 'Pandas', link: '/数据科学/Pandas/Pandas' },
+          { text: 'Matplotlib', link: '/数据科学/Matplotlib/Matplotlib' },
+          { text: 'Seaborn', link: '/数据科学/Seaborn/Seaborn' }
         ]
       }
     ],

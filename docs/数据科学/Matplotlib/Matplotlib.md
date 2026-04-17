@@ -1,12 +1,12 @@
-#  Matplotlib
+﻿#  Matplotlib
 
-## 1. matplotlib 简介
+## 1. Matplotlib 简介
 
-### 1.1 matplotlib 简介
+### 1.1 Matplotlib 简介
 
-`matplotlib` 是 `Python` 编程语言及其数值数学扩展包 `NumPy` 的可视化操作界面。它为利用通用的图形用户界面工具包，如 `Tkinter`、`wxPython`、`Qt` 或 `GTK+` 向应用程序嵌入式绘图提供了应用程序接口（`API`）。
+`Matplotlib` 是 `Python` 编程语言及其数值数学扩展包 `NumPy` 的可视化操作界面。它为利用通用的图形用户界面工具包，如 `Tkinter`、`wxPython`、`Qt` 或 `GTK+` 向应用程序嵌入式绘图提供了应用程序接口（`API`）。
 
-此外，`matplotlib` 还有一个基于图像处理库（如开放图形库 `OpenGL`）的 `pylab` 接口，其设计与 `MATLAB` 非常类似。`SciPy` 就是用 `matplotlib` 进行图形绘制。
+此外，`Matplotlib` 还有一个基于图像处理库（如开放图形库 `OpenGL`）的 `pylab` 接口，其设计与 `MATLAB` 非常类似。`SciPy` 就是用 `Matplotlib` 进行图形绘制。
 
 ```python
 import matplotlib as mpl              # 导入Matplotlib，用于设置全局样式、参数
@@ -20,7 +20,7 @@ mpl.rcParams['font.sans-serif'] = ['SimHei']
 mpl.rcParams['axes.unicode_minus'] = False       
 ```
 
-### 1.2 matplotlib 基础函数大全
+### 1.2 Matplotlib 基础函数大全
 
 ```python
 plot()           # 变量趋势变化
@@ -507,7 +507,7 @@ plt.show()                                             # 显示图形
 
 <p align="center"><img src="./assets/Matplotlib-14.png" alt="Matplotlib-14"></p>
 
-## 2. matplotlib 绘图函数
+## 2. Matplotlib 绘图函数
 
 #### 2.1 柱状图
 
@@ -824,7 +824,7 @@ plt.title("matplotlib也可以画气泡图！！！")     # 设置标题
 plt.show()                                    # 显示图形
 ```
 
-> [!hint]
+> [!TIP] 提示
 > 气泡大小计算公式：`size_n=(10*x + 20*y)**2`，当 `10*x+20*y≈0` 时，平方后气泡大小非常小，对应点大约落在直线 `y≈-0.5 x` 上，所以看到一条小气泡线
 
 <p align="center"><img src="./assets/Matplotlib-23.png" width="400" alt="Matplotlib-23"></p>
@@ -888,7 +888,7 @@ plt.show()                                   # 显示图形
 
 <p align="center"><img src="./assets/Matplotlib-25.png" width="400" alt="Matplotlib-25"></p>
 
-## 3. matplotlib subplot
+## 3. Matplotlib subplot
 
 ### 3.1 Subplot 等分画布绘图
 
