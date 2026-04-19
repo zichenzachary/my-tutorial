@@ -824,7 +824,7 @@ plt.title("matplotlib也可以画气泡图！！！")     # 设置标题
 plt.show()                                    # 显示图形
 ```
 
-> [!TIP] 提示
+> [!TIP] 💡 提示
 > 气泡大小计算公式：`size_n=(10*x + 20*y)**2`，当 `10*x+20*y≈0` 时，平方后气泡大小非常小，对应点大约落在直线 `y≈-0.5 x` 上，所以看到一条小气泡线
 
 <p align="center"><img src="./assets/Matplotlib-23.png" width="400" alt="Matplotlib-23"></p>

@@ -393,7 +393,7 @@ sns.boxenplot(x="color", y="price",
               hue='color', legend=False)
 ```
 
-> [!NOTE] 信息
+> [!NOTE] 📝 信息
 > 箱子中间的线为中位数，上方的点为一些异常点
 
 <div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
@@ -441,7 +441,7 @@ g = sns.catplot(x="day", y="total_bill", kind="violin", inner=None, data=tips)
 sns.swarmplot(x="day", y="total_bill", color="k", size=3, data=tips, ax=g.ax)               
 ```
 
-> [!NOTE] 信息
+> [!NOTE] 📝 信息
 > 隆起的地方越靠右代表平均值越大，白色的线代表中位数
 
 <div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
@@ -792,7 +792,7 @@ sns.residplot(x="x", y="y",data=anscombe.query("dataset == 'I'"),
               scatter_kws={"s": 80})      # 绘制残差图，点大小为80
 ```
 
-> [!TIP] 提示
+> [!TIP] 💡 提示
 >
 > 残差（residual） = 真实值 - 拟合值
 >
