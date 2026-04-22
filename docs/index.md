@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /样式预览/样式预览
+      link: /文章/示例/样式预览/样式预览
     - theme: alt
       text: 文章
       link: /简明LaTex教程/简明LaTex教程

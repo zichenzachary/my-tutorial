@@ -1,5 +1,7 @@
-import { defineConfig } from 'vitepress'
+﻿/// <reference path="./env.d.ts" />
 
+import { defineConfig } from 'vitepress'
+import markdownItMark from 'markdown-it-mark'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',
@@ -8,41 +10,34 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]
   ],
 
   
   themeConfig: {
-    logo: { src: '/logo.svg', width: 24, height: 24 },
+    logo: { src: '/logo.png', width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文章', link: '/简明LaTex教程/简明LaTex教程' } 
-    ],
-
-    sidebar: [
-      {
-        text: '示例',
-        collapsed: false,
-        items: [
-          { text: '样式预览', link: '/样式预览/样式预览' },
-          { text: '建站指南', link: '/建站指南/建站指南' }
-
-        ]
-      },
       {
         text: '文章',
-        collapsed: false,
+        activeMatch: '^/文章/',
         items: [
-          { text: '简明LaTex教程', link: '/简明LaTex教程/简明LaTex教程' },
-          { text: 'Jupyter命令', link: '/数据科学/Jupyter命令/Jupyter命令' },
-          { text: 'NumPy', link: '/数据科学/NumPy/NumPy' },
-          { text: 'Pandas', link: '/数据科学/Pandas/Pandas' },
-          { text: 'Matplotlib', link: '/数据科学/Matplotlib/Matplotlib' },
-          { text: 'Seaborn', link: '/数据科学/Seaborn/Seaborn' }
+          { text: '示例', link: '/文章/示例/样式预览/样式预览' },
+          { text: '其他', link: '/文章/其他/简明LaTex教程/简明LaTex教程' },
+          { text: '办公', link: '/文章/办公/Word实用技能培训/1.内容编辑' },
+          { text: '数据分析', link: '/文章/数据分析/Jupyter命令/Jupyter命令' }
         ]
-      }
+      },
+      
     ],
+
+    sidebar: {
+      '/文章/示例/': { items: sidebarExample() },
+      '/文章/其他/': { items: sidebarOther() },
+      '/文章/办公/': { items: sidebarOffice() },
+      '/文章/数据分析/': { items: sidebarDataAnalysis() }
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zichenzachary' } 
@@ -217,7 +212,111 @@ export default defineConfig({
   markdown: {
     math: true,
     image: {
-      lazyLoading: false  // true
+      lazyLoading: true
+    },
+    config: (md) => {
+      md.use(markdownItMark)
     }
   }
 })
+
+function sidebarExample() {
+  return [
+    {
+      text: '示例',
+      collapsed: false,
+      items: [
+        { text: '样式预览', link: '/文章/示例/样式预览/样式预览' },
+        { text: '建站指南', link: '/文章/示例/建站指南/建站指南' }
+      ]
+    }
+  ]
+}
+
+function sidebarOther() {
+  return [
+    {
+      text: '其他',
+      collapsed: false,
+      items: [
+        { text: '简明LaTex教程', link: '/文章/其他/简明LaTex教程/简明LaTex教程' },
+        { text: '数据结构', link: '/文章/其他/数据结构/数据结构' }
+      ]
+    }
+  ]
+}
+
+function sidebarOffice() {
+  return [
+    {
+      text: 'Word实用技能培训',
+      collapsed: false,
+      items: [
+        { text: '1.内容编辑', link: '/文章/办公/Word实用技能培训/1.内容编辑' },
+        { text: '2.页面设置与整体排版', link: '/文章/办公/Word实用技能培训/2.页面设置与整体排版' },
+        { text: '3.高效文档处理（单文件、长文档）（上）', link: '/文章/办公/Word实用技能培训/3.高效文档处理（单文件、长文档）（上）' },
+        { text: '4.高效文档处理（单文件、长文档）（下）', link: '/文章/办公/Word实用技能培训/4.高效文档处理（单文件、长文档）（下）' },
+        { text: '5.高效文档处理（多文件）', link: '/文章/办公/Word实用技能培训/5.高效文档处理（多文件）' }
+      ]
+    }
+  ]
+}
+
+function sidebarDataAnalysis() {
+  return [
+    {
+      text: 'Jupyter命令',
+      items: [
+        { text: 'Jupyter命令', link: '/文章/数据分析/Jupyter命令/Jupyter命令/' }
+      ]
+    },
+    {
+      text: 'NumPy',
+      items: [
+        { text: '1.NumPy简介与数组基础计算', link: '/文章/数据分析/NumPy/1.NumPy简介与数组基础计算' },
+        { text: '2.NumPy数组形态转换与计算', link: '/文章/数据分析/NumPy/2.NumPy数组形态转换与计算' },
+        { text: '3.NumPy数组广播机制与进阶操作', link: '/文章/数据分析/NumPy/3.NumPy数组广播机制与进阶操作' },
+        { text: '4.NumPy文件读写', link: '/文章/数据分析/NumPy/4.NumPy文件读写' },
+        { text: '5.NumPy小结-功能篇', link: '/文章/数据分析/NumPy/5.NumPy小结-功能篇' },
+      ]
+    },
+    {
+      text: 'Pandas',
+      items: [
+        { text: '1.常用软件介绍', link: '/文章/数据分析/Pandas/1.常用软件介绍' },
+        { text: '2.Pandas基础结构与读写', link: '/文章/数据分析/Pandas/2.Pandas基础结构与读写' },
+        { text: '3.Pandas常见函数与数据处理', link: '/文章/数据分析/Pandas/3.Pandas常见函数与数据处理' },
+        { text: '4.PandasSeries介绍', link: '/文章/数据分析/Pandas/4.PandasSeries介绍' },
+        { text: '5.Pandas分组聚合', link: '/文章/数据分析/Pandas/5.Pandas分组聚合' },
+        { text: '6.Pandas数据变形', link: '/文章/数据分析/Pandas/6.Pandas数据变形' },
+        { text: '7.Series排名函数、位移函数与可视化', link: '/文章/数据分析/Pandas/7.Series排名函数、位移函数与可视化' },
+        { text: '8.DataFrame时间序列处理与可视化', link: '/文章/数据分析/Pandas/8.DataFrame时间序列处理与可视化' },
+        { text: '9.Pandas小结-功能篇', link: '/文章/数据分析/Pandas/9.Pandas小结-功能篇' }
+      ]
+    },
+    {
+      text: 'Matplotlib',
+      items: [
+        { text: '1.Matplotlib简介', link: '/文章/数据分析/Matplotlib/1.Matplotlib简介' },
+        { text: '2.Matplotlib绘图函数', link: '/文章/数据分析/Matplotlib/2.Matplotlib绘图函数' },
+        { text: '3.Matplotlibsubplot', link: '/文章/数据分析/Matplotlib/3.Matplotlibsubplot' }
+      ]
+    },
+    {
+      text: 'Seaborn',
+      items: [
+        { text: '1.Seaborn简介', link: '/文章/数据分析/Seaborn/1.Seaborn简介' },
+        { text: '2.Seaborn统计关系绘图', link: '/文章/数据分析/Seaborn/2.Seaborn统计关系绘图' },
+        { text: '3.Seaborn分类数据绘图', link: '/文章/数据分析/Seaborn/3.Seaborn分类数据绘图' },
+        { text: '4.Seaborn变量分布绘图', link: '/文章/数据分析/Seaborn/4.Seaborn变量分布绘图' },
+        { text: '5.Seaborn曲线拟合绘图', link: '/文章/数据分析/Seaborn/5.Seaborn曲线拟合绘图' },
+        { text: '6.Onesky数据处理', link: '/文章/数据分析/Seaborn/6.Onesky数据处理' },
+        { text: '7.Seaborn知识点补充', link: '/文章/数据分析/Seaborn/7.Seaborn知识点补充' },
+        { text: '8.Seaborn-Onesky单变量可视化分析', link: '/文章/数据分析/Seaborn/8.Seaborn-Onesky单变量可视化分析' },
+        { text: '9.Seaborn-Onesky变量间可视化分析', link: '/文章/数据分析/Seaborn/9.Seaborn-Onesky变量间可视化分析' },
+        { text: '10.利用Matplotlib和Seaborn搭建仪表盘', link: '/文章/数据分析/Seaborn/10.利用Matplotlib和Seaborn搭建仪表盘' },
+        { text: '11.数据分析四件套掌握程度总结', link: '/文章/数据分析/Seaborn/11.数据分析四件套掌握程度总结' }
+      ]
+    }
+  ]
+}
