@@ -26,7 +26,8 @@ export default defineConfig({
           { text: '示例', link: '/文章/示例/样式预览/样式预览' },
           { text: '其他', link: '/文章/其他/简明LaTex教程/简明LaTex教程' },
           { text: '办公', link: '/文章/办公/Word实用技能培训/1.内容编辑' },
-          { text: '数据分析', link: '/文章/数据分析/Jupyter命令/Jupyter命令' }
+          { text: '数据分析', link: '/文章/数据分析/Jupyter命令/Jupyter命令' },
+          { text: 'MLLM', link: '/文章/MLLM/1_环境搭建与AI基础' }
         ]
       },
       
@@ -36,7 +37,8 @@ export default defineConfig({
       '/文章/示例/': { items: sidebarExample() },
       '/文章/其他/': { items: sidebarOther() },
       '/文章/办公/': { items: sidebarOffice() },
-      '/文章/数据分析/': { items: sidebarDataAnalysis() }
+      '/文章/数据分析/': { items: sidebarDataAnalysis() },
+      '/文章/MLLM/': { items: sidebarMLLM() }
     },
 
     socialLinks: [
@@ -299,7 +301,7 @@ function sidebarDataAnalysis() {
       items: [
         { text: '1.Matplotlib简介', link: '/文章/数据分析/Matplotlib/1.Matplotlib简介' },
         { text: '2.Matplotlib绘图函数', link: '/文章/数据分析/Matplotlib/2.Matplotlib绘图函数' },
-        { text: '3.Matplotlibsubplot', link: '/文章/数据分析/Matplotlib/3.Matplotlibsubplot' }
+        { text: '3.Matplotlib Subplot', link: '/文章/数据分析/Matplotlib/3.Matplotlib Subplot' }
       ]
     },
     {
@@ -316,6 +318,18 @@ function sidebarDataAnalysis() {
         { text: '9.Seaborn-Onesky变量间可视化分析', link: '/文章/数据分析/Seaborn/9.Seaborn-Onesky变量间可视化分析' },
         { text: '10.利用Matplotlib和Seaborn搭建仪表盘', link: '/文章/数据分析/Seaborn/10.利用Matplotlib和Seaborn搭建仪表盘' },
         { text: '11.数据分析四件套掌握程度总结', link: '/文章/数据分析/Seaborn/11.数据分析四件套掌握程度总结' }
+      ]
+    }
+  ]
+}
+
+function sidebarMLLM() {
+  return [
+    {
+      text: 'MLLM',
+      collapsed: false,
+      items: [
+        { text: '1.环境搭建与AI基础', link: '/文章/MLLM/1_环境搭建与AI基础' }
       ]
     }
   ]

@@ -1116,7 +1116,7 @@ fc-list -f "%{family}\n" :lang=zh      # 查看中文字体
 
 ## 25. 新式表格 - tabularray
 
-> [!NOTE] 📝 查看文档
+> [!NOTE] ✏️ 查看文档
 >
 > 在线查看：https://texdoc.org/serve/tabularray/0
 >
