@@ -1,4 +1,4 @@
-# 1.环境搭建与AI基础
+# 1_环境搭建与AI基础
 
 ## 1. 课程目标以及重点
 
@@ -14,7 +14,7 @@
 - 基于 ModelScope 或者本地开发环境，完成基于 lightgbm 和 xgb 算法对如下的数据集进行二分类任务建模，其中 label 为 stars，去掉 stars 为空的数据后，stars 大于 3 为 1，小于 3 的为 0，具体的数据集如下所示，对数据进行训练集：测试集为 8:2 进行划分，评估训练集和测试集的分类指标：acc，precision，recall。
 - 特征提取大家可以自由发挥，必须要有文本特征 + 其他特征
 
-[L1_环境搭建与AI基础.csv](./assets/L1_环境搭建与AI基础.csv)
+[data.csv](./assets/1_attachment_01.csv)
 
 - 预习一下里面的代码，掌握 PyTorch 的使用
 
@@ -48,7 +48,7 @@
 
 - Tensor 的使用
 
-[l1_attachment_02.zip](./assets/l1_attachment_02.zip)
+[pytorch-book-master.zip](./assets/1_attachment_02.zip)
 
 ### 3.3 编辑器：VS Code
 
@@ -322,8 +322,11 @@ print(f"R²分数: {r2:.2f}")
 
 > [!NOTE] ✏️ 信息
 > y=wx+b，目标 loss= |y-y1|
+>
 > 第一步：w1=1, b1=4
+>
 > 第二步：w2 = w1 - 0.01\*1, b2
+>
 > 第三步：w3
 
 <p align="center"><img src="./assets/1_环境搭建与AI基础-10.png" alt="1_环境搭建与AI基础-10"></p>

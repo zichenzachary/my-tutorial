@@ -329,7 +329,8 @@ function sidebarMLLM() {
       text: 'MLLM',
       collapsed: false,
       items: [
-        { text: '1.环境搭建与AI基础', link: '/文章/MLLM/1_环境搭建与AI基础' }
+        { text: '1_环境搭建与AI基础', link: '/文章/MLLM/1_环境搭建与AI基础' },
+        { text: '2_图像常用处理技术与实践', link: '/文章/MLLM/2_图像常用处理技术与实践' }
       ]
     }
   ]
