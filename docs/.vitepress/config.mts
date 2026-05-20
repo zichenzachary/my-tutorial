@@ -273,6 +273,12 @@ function sidebarDataAnalysis() {
       ]
     },
     {
+      text: 'PyTorch环境搭建',
+      items: [
+        { text: 'PyTorch环境搭建', link: '/文章/数据分析/PyTorch环境搭建/PyTorch环境搭建' }
+      ]
+    },
+    {
       text: 'NumPy',
       items: [
         { text: '1.NumPy简介与数组基础计算', link: '/文章/数据分析/NumPy/1.NumPy简介与数组基础计算' },
