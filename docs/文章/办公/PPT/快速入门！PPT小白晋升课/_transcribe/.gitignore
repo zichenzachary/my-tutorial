@@ -1,0 +1,7 @@
+*
+!.gitignore
+!*.srt
+!*.txt
+!*.md
+!*.json
+!*.m3u8

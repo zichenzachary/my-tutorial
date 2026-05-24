@@ -1,0 +1,19 @@
+{
+  "lesson": "lesson-05",
+  "title": "数据图表的个性化呈现",
+  "source_type": "m3u8",
+  "transcription": "faster-whisper",
+  "model": "small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "zh",
+  "language_probability": 1,
+  "segments": 107,
+  "duration_seconds_estimated": 680.62,
+  "generated_at": "2026-05-22T22:41:39",
+  "files": {
+    "audio": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-05.wav",
+    "srt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-05.srt",
+    "txt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-05.txt"
+  }
+}

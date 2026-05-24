@@ -1,0 +1,19 @@
+{
+  "lesson": "lesson-02",
+  "title": "????????PPT??",
+  "source_type": "audio-aac",
+  "transcription": "faster-whisper",
+  "model": "small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "zh",
+  "language_probability": 1,
+  "segments": 616,
+  "duration_seconds_estimated": 1697.85,
+  "generated_at": "2026-05-23T13:18:39",
+  "files": {
+    "audio": "D:\\Documents\\vitepress-site\\my-tutorial\\tmp_transcribe_audio\\ppt-newbie-lesson-02.wav",
+    "srt": "D:\\Documents\\vitepress-site\\my-tutorial\\tmp_transcribe_audio\\lesson-02.srt",
+    "txt": "D:\\Documents\\vitepress-site\\my-tutorial\\tmp_transcribe_audio\\lesson-02.txt"
+  }
+}

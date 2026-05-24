@@ -260,6 +260,15 @@ function sidebarOffice() {
         { text: '4.高效文档处理（单文件、长文档）（下）', link: '/文章/办公/Word实用技能培训/4.高效文档处理（单文件、长文档）（下）' },
         { text: '5.高效文档处理（多文件）', link: '/文章/办公/Word实用技能培训/5.高效文档处理（多文件）' }
       ]
+    },
+    {
+      text: 'PPT',
+      collapsed: false,
+      items: [
+        { text: 'PPT新手入门', link: '/文章/办公/PPT/PPT新手入门/PPT新手入门' },
+        { text: '7节课搞定毕业答辩PPT', link: '/文章/办公/PPT/7节课搞定毕业答辩PPT/7节课搞定毕业答辩PPT' },
+        { text: '快速入门！PPT小白晋升课', link: '/文章/办公/PPT/快速入门！PPT小白晋升课/快速入门！PPT小白晋升课' }
+      ]
     }
   ]
 }

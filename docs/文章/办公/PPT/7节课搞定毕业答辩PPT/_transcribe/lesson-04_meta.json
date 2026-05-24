@@ -1,0 +1,19 @@
+{
+  "lesson": "lesson-04",
+  "title": "图文排版设计技巧",
+  "source_type": "m3u8",
+  "transcription": "faster-whisper",
+  "model": "small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "zh",
+  "language_probability": 1,
+  "segments": 136,
+  "duration_seconds_estimated": 915.89,
+  "generated_at": "2026-05-22T22:27:35",
+  "files": {
+    "audio": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-04.wav",
+    "srt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-04.srt",
+    "txt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-04.txt"
+  }
+}

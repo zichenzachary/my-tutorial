@@ -1,0 +1,19 @@
+{
+  "lesson": "lesson-02",
+  "title": "毕业答辩PPT主题框架的设计",
+  "source_type": "m3u8",
+  "transcription": "faster-whisper",
+  "model": "small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "zh",
+  "language_probability": 1,
+  "segments": 301,
+  "duration_seconds_estimated": 1545.24,
+  "generated_at": "2026-05-22T19:34:05",
+  "files": {
+    "audio": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-02.wav",
+    "srt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-02.srt",
+    "txt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-02.txt"
+  }
+}

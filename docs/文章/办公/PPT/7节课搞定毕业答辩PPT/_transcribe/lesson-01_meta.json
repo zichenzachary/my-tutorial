@@ -1,0 +1,19 @@
+{
+  "lesson": 1,
+  "title": "文案梳理和逻辑结构组织",
+  "source_type": "m3u8",
+  "transcription": "faster-whisper",
+  "model": "small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "zh",
+  "language_probability": 1,
+  "segments": 321,
+  "duration_seconds_estimated": 968.71,
+  "generated_at": "2026-05-22T18:44:23",
+  "files": {
+    "audio": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-01.wav",
+    "srt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-01.srt",
+    "txt": "D:\\Documents\\vitepress-site\\my-tutorial\\docs\\文章\\办公\\PPT\\7节课搞定毕业答辩PPT\\_transcribe\\lesson-01.txt"
+  }
+}
