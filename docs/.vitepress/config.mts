@@ -265,7 +265,7 @@ function sidebarOffice() {
       text: 'PPT',
       collapsed: false,
       items: [
-        { text: 'PPT新手入门', link: '/文章/办公/PPT/PPT新手入门/PPT新手入门' },
+        { text: 'Bobbie_Lee', link: '/文章/办公/PPT/Bobbie_Lee/Bobbie_Lee' },
         { text: '7节课搞定毕业答辩PPT', link: '/文章/办公/PPT/7节课搞定毕业答辩PPT/7节课搞定毕业答辩PPT' },
         { text: '快速入门！PPT小白晋升课', link: '/文章/办公/PPT/快速入门！PPT小白晋升课/快速入门！PPT小白晋升课' }
       ]
