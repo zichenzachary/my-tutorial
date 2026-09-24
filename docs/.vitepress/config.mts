@@ -240,7 +240,8 @@ function sidebarOther() {
       collapsed: false,
       items: [
         { text: '简明LaTex教程', link: '/文章/其他/简明LaTex教程/简明LaTex教程' },
-        { text: '数据结构', link: '/文章/其他/数据结构/数据结构' }
+        { text: '数据结构', link: '/文章/其他/数据结构/数据结构' },
+        { text: '只学够用的 Linux：零基础最小入门教程', link: '/文章/其他/只学够用的Linux/只学够用的Linux-零基础最小入门教程' }
       ]
     }
   ]
