@@ -39,10 +39,6 @@ export default defineConfig({
       '/文章/数据分析/': { items: sidebarDataAnalysis() }
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/zichenzachary' } 
-    ],
-
     outline: {
       label: '页面导航',
       level: [2, 3]
